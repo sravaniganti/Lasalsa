@@ -1,0 +1,16 @@
+<section id="chef">
+  <section class="ss-style-top"></section>
+    <div id="chefs" class="parallax pricing">
+          <div class="container inner">
+              <h2 class="section-title text-center">About Us</h2>
+                  <h4 style="font-family: 'Reem Kufi', sans-serif;">La Salsa’s approach to the best Mexican food possible is simple. We take time honored, authentic Mexican dishes and update them using the freshest ingredients and preparation to bring the bold tastes and flavors of Mexico to life in a variety of unique ways. We’re constantly exploring, trying new tastes and ideas, and updating our menu so that we can share with you our twists on the flavors of Mexico’s varied regions.</h4></br></br>
+                      <div class="row text-center chefs">
+
+                              {{ range .Site.Params.about }}
+                                  {{ partial "about1.html" . }}
+                              {{ end }}
+
+                      </div>
+              </div>
+      </div>
+</section>

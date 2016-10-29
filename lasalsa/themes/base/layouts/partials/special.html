@@ -1,0 +1,11 @@
+<div id="special-offser" class="parallax pricing">
+  <section class="ss-style-top"></section>
+  <div class="container inner">
+    <h2 class="section-title text-center">La Salsa Specials </h2>
+      <div class="row">
+        {{ range .Site.Params.special }}
+            {{ partial "special1.html" . }}
+        {{ end }}
+        </div>
+    </div>
+</div>

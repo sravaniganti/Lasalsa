@@ -1,0 +1,36 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "base"
+[params.about.1]
+images = "/images/1.jpg"
+title = "Aunthentic & Delicious"
+description = "Bienvenidos! Our authentic and delicious food, great atmosphere and wonderful staff will make your visit to LaSalsa a unique and memorable experience!"
+[params.about.2]
+images = "/images/2.jpg"
+title = "Best of Mexico"
+description = "Stop by today for lunch or Happy Hour and stay for dinner -- you will want to come back again and again!"
+[params.about.3]
+images = "/images/3.jpg"
+title = "Fresh Ingredients"
+description = "Our food and drinks are always prepared with the freshest ingredients that sets us apart from many and tantalize your palate every time."
+[params.special.1]
+images = "/images/dish3.jpg"
+title = "Tacos la salsa"
+description = "Two giant tacos stuffed with grilled chicken fire-roasted fajita veggies, and topped with jack and chedder cheeses and fresh lettuce and tomatoes."
+cost = "$4"
+[params.special.2]
+images = "/images/dish2.jpg"
+title = "Grande Burrito"
+description = "A burrito that lives up to it’s name! Grilled chicken, rice, beans, jack and cheddar cheeses, fresh salsa, guacamole, lettuce and sour cream all stuffed into a flour tortilla."
+cost = "$7"
+[params.special.3]
+images = "/images/dish4.jpg"
+title = "Chile-lime Salad"
+description = "Fresh, crispy romaine lettuce loaded with grilled chicken, cotija cheese, fresh tomatoes and avocado and topped with chile-lime dressing and tortilla strips."
+cost = "$9"
+[params.special.4]
+images = "/images/dish1.jpg"
+title = "Nachos"
+description = "Our own fresh tortilla chips smothered with jack and cheddar cheeses, beans, salsa, a rich roja sauce, guacamole and sour cream."
+cost = "$8"
